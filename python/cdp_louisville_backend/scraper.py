@@ -18,6 +18,11 @@ def get_events(
     scraper = LegistarScraper(
         client="louisville",
         timezone="America/Kentucky/Louisville",
+        ignore_minutes_item_patterns=[
+            "page break",
+            "Items sent to the Consent Calendar or Old Business",
+            "Agendas are followed at the discretion of the Chair",
+        ],
     )
 
     return scraper.get_events(begin=from_dt, end=to_dt)
