@@ -1,0 +1,13 @@
+default_context:
+    municipality: "Louisville"
+    iana_timezone: "America/Kentucky/Louisville"
+    governing_body_type: "city council"
+    municipality_slug: "louisville"
+    python_municipality_slug: "louisville"
+    infrastructure_slug: "cdp-louisville-6fd32a38"
+    maintainer_or_org_full_name: "evamaxfield"
+    hosting_github_username_or_org: "CouncilDataProject"
+    hosting_github_repo_name: "louisville"
+    hosting_github_url: "https://github.com/CouncilDataProject/louisville"
+    hosting_web_app_address: "https://councildataproject.github.io/louisville"
+    firestore_region: "us-central"
