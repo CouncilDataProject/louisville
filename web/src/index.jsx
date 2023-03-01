@@ -16,6 +16,9 @@ const config = {
         timeZone: "America/Kentucky/Louisville",
         footerLinksSections: [],
     },
+    features: {
+        // enableClipping: true,
+    },
 }
 
 ReactDOM.render(
